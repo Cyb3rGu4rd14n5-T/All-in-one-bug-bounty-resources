@@ -30,21 +30,21 @@ Streamline the core pillars of security testing:
 ## 📚 Bug Bounty Resources
 
 ### 📖 Articles & Guides
-- **[Modern Recon for Red Teams and Pentesters](Articles/Modern-Recon-Red-Teams-Pentesters.md)** — Comprehensive reconnaissance methodology
-- **[IDOR Hunting Techniques](Articles/IDOR-Hunting-Techniques.md)** — Advanced techniques for identifying Insecure Direct Object Reference vulnerabilities
-- **[AUTO-recon](Articles/AUTO-recon.md)** — Automated reconnaissance workflows and tools
+- **[Modern Recon for Red Teams and Pentesters]** — Comprehensive reconnaissance methodology
+- **[IDOR Hunting Techniques]** — Advanced techniques for identifying Insecure Direct Object Reference vulnerabilities
+- **[AUTO-recon]** — Automated reconnaissance workflows and tools
 
 ### 📋 Bug Bounty Cheatsheets
-- **[Bug Bounty Cheatsheets](Bug-Bounty-Cheatsheets/)** — Quick reference guides for common vulnerabilities
-- **[file upload bugs](Bug-Bounty-Cheatsheets/file-upload-bugs.md)** — File upload vulnerability exploitation techniques
+- **[Bug Bounty Cheatsheets]** — Quick reference guides for common vulnerabilities
+- **[file upload bugs])** — File upload vulnerability exploitation techniques
 
 ### 🎯 Reconnaissance Guides
-- **[RECON01](RECON01/)** — Initial reconnaissance phase checklist
-- **[RECON02](RECON02/)** — Deep reconnaissance and infrastructure mapping
-- **[high-impact-endpoint-recon.md](high-impact-endpoint-recon.md)** — Targeting high-value endpoints
+- **[RECON01]** — Initial reconnaissance phase checklist
+- **[RECON02]** — Deep reconnaissance and infrastructure mapping
+- **[high-impact-endpoint-recon.md]** — Targeting high-value endpoints
 
 ### 🛠️ Tools
-- **[TOOLS](TOOLS/)** — Curated collection of bug bounty tools, scripts, and automation workflows
+- **[TOOLS]** — Curated collection of bug bounty tools, scripts, and automation workflows
 
 ---
 
@@ -69,7 +69,7 @@ AUTO-recon → TOOLS → Custom Scripts
 - **Burp Suite** — Web application proxy
 - **Subfinder** — Subdomain enumeration
 
----
+
 
 ## 📖 Learning Path
 
@@ -79,7 +79,7 @@ AUTO-recon → TOOLS → Custom Scripts
 | **Intermediate** | RECON02 → Modern Recon for Red Teams → file upload bugs |
 | **Advanced** | high-impact-endpoint-recon.md → AUTO-recon → TOOLS |
 
----
+
 
 ## ⚖️ Ethical Guidelines
 
@@ -90,7 +90,6 @@ AUTO-recon → TOOLS → Custom Scripts
 - Follow responsible disclosure practices
 - Never exploit vulnerabilities without explicit authorization
 
----
 
 ## 🤝 Contributing
 
@@ -102,17 +101,10 @@ This is a **living library** that evolves with the community. Contributions are 
 - Bug bounty case studies
 - Real-world exploitation examples
 
----
-
-## 📜 License
-
-CC BY SA 4.0 — Share and adapt for educational purposes
-
----
 
 ## 🙏 Acknowledgments
 
-Built on proven techniques used in professional **VAPT** and top-tier **bug bounty programs**. Continuous evolution based on real-world security research.
+Thanks to the orginal owners for their work Built on proven techniques used in professional **VAPT** and top-tier **bug bounty programs**. Continuous evolution based on real-world security research.
 
 ---
 
