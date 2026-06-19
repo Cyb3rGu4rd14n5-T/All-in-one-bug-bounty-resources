@@ -1,0 +1,4 @@
+# Bug Bounty & Offensive Security Hub
+
+LINK:  https://bugbounty.info/ (thanks to the author https://x.com/aussinfosec for making this amazing bug bounty playbook)
+A comprehensive resource for security researchers and bug bounty hunters to master reconnaissance, discover attack surfaces, and hunt high-impact vulnerabilities. This evolving library centralizes methodologies, checklists, and discovery patterns covering advanced recon, endpoint discovery, vulnerability identification, misconfiguration hunting, and business logic analysis. Includes articles, cheatsheets, IDOR hunting techniques, automated recon workflows, and curated tools. Built on proven techniques from professional VAPT and top-tier bug bounty programs. All content strictly for authorized security testing — maintain scope-first mindset and follow responsible disclosure practices.
