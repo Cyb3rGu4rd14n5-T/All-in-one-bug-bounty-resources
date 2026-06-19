@@ -1,25 +1,122 @@
-# Bug-bounty-recon
+# 🛡️ Bug Bounty & Offensive Security Hub
 
-# Recon
+> A comprehensive resource for security researchers and bug bounty hunters to master reconnaissance, discover attack surfaces, and hunt high-impact vulnerabilities.
 
-This repository is an evolving Bug Bounty & Offensive Security Hub, designed to centralize the methodologies, checklists, and discovery patterns required to map and exploit modern attack surfaces.
+## 📑 Overview
 
-The purpose of this resource is to streamline the core pillars of security testing:
-Advanced Reconnaissance: Strategic methods for mapping digital footprints and identifying hidden infrastructure.
+This repository is an evolving **Bug Bounty & Offensive Security Hub**, designed to centralize the methodologies, checklists, and discovery patterns required to map and exploit modern attack surfaces.
 
-Endpoint & Surface Discovery: Techniques for uncovering undocumented APIs, hidden directories, and obscure entry points.
+### Purpose
+Streamline the core pillars of security testing:
 
-Vulnerability Identification: Practical checklists for hunting high-impact flaws like broken access control, server-side bypasses, and injection points.
+| Pillar | Description |
+|--------|-------------|
+| **🔍 Advanced Reconnaissance** | Strategic methods for mapping digital footprints and identifying hidden infrastructure |
+| **🎯 Endpoint & Surface Discovery** | Techniques for uncovering undocumented APIs, hidden directories, and obscure entry points |
+| **💥 Vulnerability Identification** | Practical checklists for hunting high-impact flaws like broken access control, server-side bypasses, and injection points |
+| **⚙️ Misconfiguration Hunting** | Patterns for detecting exposed cloud assets, insecure headers, and sensitive information leaks |
+| **🧠 Business Logic Analysis** | Workflows for testing critical application flows, including authentication, payment systems, and user privileges |
 
-Misconfiguration Hunting: Patterns for detecting exposed cloud assets, insecure headers, and sensitive information leaks.
+---
 
-Business Logic Analysis: Workflows for testing critical application flows, including authentication, payment systems, and user privileges.
+## 💡 Core Philosophy
 
-Core Philosophy
-Efficiency First: Focused on high-speed discovery and reducing false positives.
+- **⚡ Efficiency First** — Focused on high-speed discovery and reducing false positives
+- **🎯 Real-World Impact** — Built on proven techniques used in professional VAPT and top-tier bug bounty programs
+- **🔄 Continuous Evolution** — A living library that adapts as web technologies and security defenses shift
 
-Real-World Impact: Built on proven techniques used in professional VAPT and top-tier bug bounty programs.
-Continuous Evolution: A living library that adapts as web technologies and security defenses shift.
+---
 
-Ethical Guidelines
-All content is strictly for authorized security testing. Researchers must maintain a "scope-first" mindset, ensuring every action aligns with the specific permissions and legal boundaries of the target program.
+## 📚 Bug Bounty Resources
+
+### 📖 Articles & Guides
+- **[Modern Recon for Red Teams and Pentesters](Articles/Modern-Recon-Red-Teams-Pentesters.md)** — Comprehensive reconnaissance methodology
+- **[IDOR Hunting Techniques](Articles/IDOR-Hunting-Techniques.md)** — Advanced techniques for identifying Insecure Direct Object Reference vulnerabilities
+- **[AUTO-recon](Articles/AUTO-recon.md)** — Automated reconnaissance workflows and tools
+
+### 📋 Bug Bounty Cheatsheets
+- **[Bug Bounty Cheatsheets](Bug-Bounty-Cheatsheets/)** — Quick reference guides for common vulnerabilities
+- **[file upload bugs](Bug-Bounty-Cheatsheets/file-upload-bugs.md)** — File upload vulnerability exploitation techniques
+
+### 🎯 Reconnaissance Guides
+- **[RECON01](RECON01/)** — Initial reconnaissance phase checklist
+- **[RECON02](RECON02/)** — Deep reconnaissance and infrastructure mapping
+- **[high-impact-endpoint-recon.md](high-impact-endpoint-recon.md)** — Targeting high-value endpoints
+
+### 🛠️ Tools
+- **[TOOLS](TOOLS/)** — Curated collection of bug bounty tools, scripts, and automation workflows
+
+---
+
+## 🚀 Quick Start
+
+### Recommended Workflow
+```bash
+# 1. Reconnaissance
+RECON01 → RECON02 → Endpoint Discovery
+
+# 2. Vulnerability Hunting
+BUG-BOUNTY-CHEATSHEETS → IDOR Hunting → File Upload Bugs
+
+# 3. Automation
+AUTO-recon → TOOLS → Custom Scripts
+```
+
+### Tools Recommended
+- **nuclei** — Fast vulnerability scanning
+- **httpx** — HTTP probing tool
+- **ffuf** — Fast fuzzing utility
+- **Burp Suite** — Web application proxy
+- **Subfinder** — Subdomain enumeration
+
+---
+
+## 📖 Learning Path
+
+| Level | Resources |
+|-------|-----------|
+| **Beginner** | Bug Bounty Cheatsheets → RECON01 → IDOR Hunting Techniques |
+| **Intermediate** | RECON02 → Modern Recon for Red Teams → file upload bugs |
+| **Advanced** | high-impact-endpoint-recon.md → AUTO-recon → TOOLS |
+
+---
+
+## ⚖️ Ethical Guidelines
+
+> **All content is strictly for authorized security testing.**
+
+- Maintain a **"scope-first"** mindset
+- Ensure every action aligns with specific permissions and legal boundaries of the target program
+- Follow responsible disclosure practices
+- Never exploit vulnerabilities without explicit authorization
+
+---
+
+## 🤝 Contributing
+
+This is a **living library** that evolves with the community. Contributions are welcome:
+
+- New recon methodologies
+- Additional cheatsheets
+- Tool improvements
+- Bug bounty case studies
+- Real-world exploitation examples
+
+---
+
+## 📜 License
+
+CC BY SA 4.0 — Share and adapt for educational purposes
+
+---
+
+## 🙏 Acknowledgments
+
+Built on proven techniques used in professional **VAPT** and top-tier **bug bounty programs**. Continuous evolution based on real-world security research.
+
+---
+
+<div align="center">
+**Made for Security Researchers & Bug Bounty Hunters** 🛡️<br>
+Stay authorized, stay ethical, stay impactful.
+</div>
